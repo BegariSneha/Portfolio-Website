@@ -74,14 +74,6 @@ The application will run at:
 http://localhost:3000
 ```
 
-## Live Demo
-
-Add your deployed portfolio link here after deployment.
-
-```
-https://your-portfolio.vercel.app
-```
-
 ## Screenshots
 
 Add screenshots of the following pages:
@@ -118,4 +110,4 @@ Through this project, I gained practical experience in:
 
 - GitHub: https://github.com/BegariSneha
 - LinkedIn: https://www.linkedin.com/in/sneha-begari
-- Email: mailto:begarii.sneha@gmail.com
+- Email: https://begarii.sneha@gmail.com
