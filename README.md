@@ -110,4 +110,4 @@ Through this project, I gained practical experience in:
 
 - GitHub: https://github.com/BegariSneha
 - LinkedIn: https://www.linkedin.com/in/sneha-begari
-- Email: https://begarii.sneha@gmail.com
+- Email: <begarii.sneha@gmail.com>
