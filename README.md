@@ -74,16 +74,6 @@ The application will run at:
 http://localhost:3000
 ```
 
-## Screenshots
-
-Add screenshots of the following pages:
-
-- Home Page
-- About Section
-- Skills Section
-- Projects Section
-- Contact Section
-
 ## Learning Outcomes
 
 Through this project, I gained practical experience in:
