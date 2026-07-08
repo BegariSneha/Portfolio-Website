@@ -1,11 +1,13 @@
+/* SKILLS Section */
+
 .sec3{
     margin-top: 80px;
     display: flex;
     flex-direction: column ;
     align-items: center;
-    height: 80vh;
-    padding-top: 100px;
-    gap: 100px;
+    min-height:100vh;
+    padding:80px 8%;
+    gap: 60px;
     margin-bottom: 50px;
 }
 
@@ -20,7 +22,8 @@
     gap: 50px;
 }
 .box2{
-    width: 350px;
+    width:100%;
+    max-width:500px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -35,7 +38,7 @@
 }
 .skills{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns:1fr 1fr;
     gap: 25px;
 }
 .skills-1{
@@ -87,11 +90,16 @@
 }
 @media(max-width:1024px){
     .sec3{
-        margin-top: 700px;
-        padding-bottom: 150px;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        min-height:auto;
+        height:auto;
+        gap:40px;
+        padding:100px 40px 60px;
     }
     .sec3-2{
-        margin-top: -50px;
         flex-direction: column;
     }
     .box2{
@@ -103,6 +111,7 @@
     }
     .skills{
         gap: 50px;
+        grid-template-columns:1fr;
     }
     .skills-1{
         gap: 15px;
