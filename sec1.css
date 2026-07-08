@@ -1,14 +1,12 @@
-.sec1{
-display: flex;
-height: 100vh;
-align-items: center;
-gap: 60px;
-}
+/* HERO Section */
 
 .sec1{
+    display: flex;
+    align-items: center;
     justify-content:center;
-    gap:120px;
-    padding:0 8%;
+    gap:60px;
+    min-height:100vh;
+    padding:40px 4%;
 }
 
 .sec1-1{
@@ -19,7 +17,6 @@ gap: 60px;
     border-radius: 50%;
    
 }
-
 .sec-1-1 img{
     width:330px;
     height:330px;
@@ -35,17 +32,25 @@ gap: 60px;
     flex-direction: column;
     gap: 15px;
 }
+
+
 .sec1-2-1{
     font-weight: 600;
 }
+
+
 h1{
   font-size: 50px;
   color: darkorange;
 }
+
+
 .sec1-2-2{
     font-weight: 600;
     font-size: 22px;
 }
+
+
 p{
     font-size: 18px;
     width: 80%;
@@ -59,7 +64,7 @@ p{
 }
 
 .btns >:nth-child(1){
-  padding: 10px 20px;
+  padding:12px 24px;
   background-color: black;
   color : white;
   border-radius: 20px;
@@ -75,7 +80,7 @@ p{
     border-color: darkorange;
 }
 .btns >:nth-child(2){
-    padding: 10px 20px;
+    padding:12px 24px;
     background-color: black;
     color: white;
     border-radius: 20px;
@@ -90,6 +95,9 @@ p{
     color: white;
     border-color: darkorange;
 }
+
+
+
 .social{
     display: flex;
     gap: 20px;
@@ -99,28 +107,73 @@ p{
     transition: all 0.3s ease;
     cursor: pointer;
 }
-
-
 .social img:hover{
     transform:translateY(-5px);
 }
 
+
+
 @media(max-width:1024px){
     .sec1{
         flex-direction: column;
-        height: 100%;
-        margin-bottom: 50px;
-        padding-bottom: 50px;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        min-height:auto;
+        height:auto;
+        gap:40px;
+        padding:80px 40px 5cm;
     }
+
+    .sec1-1 img{
+        width:280px;
+    }
+
     p{
-        text-align: center;
-        width: 70%;
+        max-width : 650px;
+        width: 100%;
     }
-        .sec1-1{
-            margin-left: 0px;
-        }
-        .sec1-2{
-            align-items: center;
-            padding-bottom: 50px;
-        }
+    .sec1-2{
+        align-items: center;
+        gap: 15px;
+    }
+
+    .btns{
+        padding:12px 24px;
+    }
+}
+
+@media(max-width:768px){
+    .sec1{
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        min-height:auto;
+        height:auto;
+        gap:40px;
+        padding:100px 40px 60px;
+    }
+
+    .sec1-1 img{
+        width:240px;
+    }
+
+    h1{
+        font-size:42px;
+    }
+
+    .sec1-2-2{
+        font-size:20px;
+    }
+
+    p{
+        width:100%;
+        font-size:16px;
+    }
+
+    .btns button{
+        width:220px;
+        text-align:center;
+    }
 }
